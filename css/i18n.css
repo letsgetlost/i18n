@@ -1,0 +1,72 @@
+body {
+	background: #edf5ff;
+}
+#en_tree {
+	border: 1px solid #808080;
+	background-color: #fff;
+	padding: 10px;
+}
+
+#navright {
+	border: 1px solid #808080;
+	background-color: #fff;
+	position: absolute;
+	top: 60px;
+	left:420px;
+}
+
+#content {
+	border: 1px solid #808080;
+	background-color: #fff;
+	position: relative;
+	width: auto;
+	min-width: 120px;	
+}
+
+input.error {
+    border: 1px solid #c00e0c;
+}
+
+.error-msg {
+	color: #c00e0c;
+	font-weight:bold;
+    font-style: normal;
+    display: block;
+    padding: 1px;
+}
+
+fieldset {
+    float: left;
+    clear: left;
+    width: 100%;
+    margin: 0 0 1.5em 0;
+    padding: 0;
+    border: 1px solid #BFBAB0;
+    background-color: #F2EFE9;
+}
+
+form dl {
+    margin:15px 0px 0px 0px;
+    padding:0px;
+    width:auto;
+    clear:both;
+}
+
+form dt {
+    float:left;
+    /* width:200px; */
+    margin:0px 0px 5px 0px;
+    color:#000000;
+    /*font-size:110%; */
+}
+
+form dd {
+    margin:0px 0px 10px;
+    color:#666666;
+}
+
+form dd label {
+    vertical-align:top;
+    margin:0px 8px 0px 0px;
+    line-height:1.6em;
+}

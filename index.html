@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>YUI: Tree with Menu - test</title>
+    
+    <!-- Individual YUI CSS files -->
+    <!-- Standard reset, fonts e grids -->
+    <link rel="stylesheet" type="text/css" href="yui/build/reset-fonts-grids/reset-fonts-grids.css">
+    <!-- CSS per tabview -->
+    <link rel="stylesheet" type="text/css" href="yui/build/tabview/assets/skins/sam/tabview.css">
+    <!-- CSS per treeview -->
+    <link rel="stylesheet" type="text/css" href="yui/build/treeview/assets/skins/sam/treeview.css">
+    <!-- CSS per treeview con folder personalizzati -->
+    <link rel="stylesheet" type="text/css" href="css/tree.css" />
+    <!-- CSS per menu -->
+    <link rel="stylesheet" type="text/css" href="yui/build/menu/assets/skins/sam/menu.css">
+    <!-- CSS per container -->
+    <link rel="stylesheet" type="text/css" href="yui/build/container/assets/skins/sam/container.css" />
+    <!-- CSS per i18n -->
+    <link rel="stylesheet" type="text/css" href="css/i18n.css" />
+
+
+    <!-- Individual YUI JS files -->
+	<!-- Elementi di base (yahoo, dom e event) -->
+    <script type="text/javascript" src="yui/build/yahoo-dom-event/yahoo-dom-event.js"></script>
+    <!-- Connection Manager -->
+	<script type="text/javascript" src="yui/build/connection/connection.js"></script>
+    <!-- Container: necessario per module, dialog e panel -->
+	<script type="text/javascript" src="yui/build/container/container.js"></script>
+    <!-- Menu -->
+	<script type="text/javascript" src="yui/build/menu/menu.js"></script>
+	<!-- Manipolazione DOM: caratteristiche aggiuntive e dipendenza per tabview -->
+	<script type="text/javascript" src="yui/build/element/element.js"></script>
+    <!-- Tab -->
+	<script type="text/javascript" src="yui/build/tabview/tabview.js"></script>
+    <!-- Tree -->
+	<script type="text/javascript" src="yui/build/treeview/treeview.js"></script>
+	<!-- Ricerca avanzata elementi DOM -->
+	<script type="text/javascript" src="yui/build/selector/selector.js"></script>
+	<!-- JSON utility -->
+	<script type="text/javascript" src="yui/build/json/json.js"></script>
+    <!-- Optional dependency source file -->
+    <script type="text/javascript" src="yui/build/animation/animation.js"></script>
+
+<!-- Button (these 2 files only required if you want SimpleDialog to use YUI Buttons, instead of HTML Buttons) --> 
+<!--
+<link rel="stylesheet" type="text/css" href="../../yui/build/button/assets/skins/sam/button.css" />
+<script type="text/javascript" src="../../yui/build/element/element-beta-min.js"></script> 
+<script type="text/javascript" src="../../yui/build/button/button-min.js"></script> 
+-->
+</head>
+
+<body class="yui-skin-sam">
+
+<!-- container 100% (id=doc3) con barra laterale di 160 px (class=yui-t1) --> 
+<div id="doc3" class="yui-t1">
+	<div id="hd"><h1>Esempio gestione contenuti</h1></div>
+	<div id="bd">
+	<!-- Al blocco principale aggiungiamo una barra laterale per inserire l'albero -->
+		<div id="yui-main">
+			<div class="yui-b">
+				<div class="yui-g">
+					<div class="yui-u first">
+					Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas sit amet metus. Nunc quam elit, posuere nec, auctor in, rhoncus quis, dui. Aliquam erat volutpat. Ut dignissim, massa sit amet dignissim cursus, quam lacus feugiat dolor, id aliquam leo tortor eget odio. Pellentesque orci arcu, eleifend at, iaculis sit amet, posuere eu, lorem. Aliquam erat volutpat. Phasellus vulputate. Vivamus id erat. Nulla facilisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos hymenaeos. Nunc gravida. Ut euismod, tortor eget convallis ullamcorper, arcu odio egestas pede, ut ornare urna elit vitae mauris. Aenean ullamcorper eros a lacus. Curabitur egestas tempus lectus. Donec et lectus et purus dapibus feugiat. Sed sit amet diam. Etiam ipsum leo, facilisis ac, rutrum nec, dignissim quis, tellus. Sed eleifend.
+					</div>
+					<div class="yui-u">
+					colonna secondaria
+					</div>
+				</div>
+			</div>
+		</div>	
+		<div class="yui-b"> 
+			<div id="en_tree">
+			</div>	
+		</div>
+	</div>	
+	<div id="ft"> footer </div>
+</div>	
+
+<script type="text/javascript" src="en_tree.js"></script>
+</body>
+</html>
